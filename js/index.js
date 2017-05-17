@@ -238,7 +238,7 @@ function onMouseDown(event) {
                         
                         info.innerHTML = "I'm <span>Nikita</span>  Skargovskii,";
                         subtitle.innerHTML = "a <span>front-end developer</span> from Paris.";
-                        description.innerHTML = "I'm currently finishing my HND, and i'm looking for an <span>internship.</span><br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "I'm about to complete my HND, and I'm currently an intern at <span>epicery.</span><br/><br/><div>Click on the other planets to learn more ...<div>";
                     }
                     if (planetViewed == 2 || planetViewed==3 || planetViewed==4) {
                         planetViewed = 1;
