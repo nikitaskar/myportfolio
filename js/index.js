@@ -265,7 +265,7 @@ function onMouseDown(event) {
                        
                           info.innerHTML = "I'm <span>Nikita</span>  Skargovskii,";
                         subtitle.innerHTML = "a <span>front-end developer</span> from Paris.";
-                        description.innerHTML = "I'm currently finishing my HND, and i'm looking for an <span>internship.</span><br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "I'm about to complete my HND, and I'm an intern at <span>epicery.</span><br/><br/><div>Click on the other planets to learn more ...<div>";
 
                     }
                 }
@@ -305,7 +305,7 @@ function onMouseDown(event) {
                         info.innerHTML = '<span id="couleur">Study</span> Project <div>: Victor et les Palus<div> ';
                          document.getElementById('couleur').style.color="#ffc12d";
                         subtitle.innerHTML = "Since <span>March 2016</span>.";
-                        description.innerHTML = "Creation of a webseries, which combines 2D animation and photographies (in progress).<br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "Creation of a webseries, which combines 2D animation and photographies.<br/><br/><div>Click on the other planets to learn more ...<div>";
 
                         TweenMax.from($('#content'), 0.5, {
                             css: {
