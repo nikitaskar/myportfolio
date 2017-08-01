@@ -332,7 +332,7 @@ function onMouseDown(event) {
                     if (currentcolor == 0xacacac) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==3) {
                         planetViewed = 4;
-                        info.innerHTML = '<span id="couleur">Study</span> Project <div>: Scientia Vulgaris<div> ';
+                        info.innerHTML = '<span id="couleur">Study</span> Project <a href="victoretlespalus.fr">: Scientia Vulgaris<a> ';
                          document.getElementById('couleur').style.color="#acacac";
                         subtitle.innerHTML = "From <span>October 2016</span> To <span>January 2017</span> .";
                         description.innerHTML = "Production of an <a target='_blank' href='https://vimeo.com/204017847'>opening</a> for a weekly show about science and new technologies<br/><br/><div>Click on the other planets to learn more ...<div>";
