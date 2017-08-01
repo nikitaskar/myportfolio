@@ -302,7 +302,7 @@ function onMouseDown(event) {
                    if (currentcolor == 0xffc12d) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==4) {
                         planetViewed = 3;
-                        info.innerHTML = '<span id="couleur">Study</span> Project <div>: Victor et les Palus<div> ';
+                        info.innerHTML = '<span id="couleur">Study</span> Project <a target="_blank" href="victoretlespalus.fr">: Victor et les Palus<a> ';
                          document.getElementById('couleur').style.color="#ffc12d";
                         subtitle.innerHTML = "Since <span>March 2016</span>.";
                         description.innerHTML = "Creation of a webseries, which combines 2D animation and photographies.<br/><br/><div>Click on the other planets to learn more ...<div>";
@@ -332,7 +332,7 @@ function onMouseDown(event) {
                     if (currentcolor == 0xacacac) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==3) {
                         planetViewed = 4;
-                        info.innerHTML = '<span id="couleur">Study</span> Project <a href="victoretlespalus.fr">: Scientia Vulgaris<a> ';
+                        info.innerHTML = '<span id="couleur">Study</span> Project <div>: Scientia Vulgaris<div> ';
                          document.getElementById('couleur').style.color="#acacac";
                         subtitle.innerHTML = "From <span>October 2016</span> To <span>January 2017</span> .";
                         description.innerHTML = "Production of an <a target='_blank' href='https://vimeo.com/204017847'>opening</a> for a weekly show about science and new technologies<br/><br/><div>Click on the other planets to learn more ...<div>";
