@@ -302,7 +302,7 @@ function onMouseDown(event) {
                    if (currentcolor == 0xffc12d) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==4) {
                         planetViewed = 3;
-                        info.innerHTML = '<span id="couleur">Study</span> Project <a target="_blank" href="victoretlespalus.fr">: Victor et les Palus<a> ';
+                        info.innerHTML = '<span id="couleur">Study</span> Project : <a target="_blank" href="victoretlespalus.fr" style="font-size: 22px; color: white;">Victor et les Palus<a> ';
                          document.getElementById('couleur').style.color="#ffc12d";
                         subtitle.innerHTML = "Since <span>March 2016</span>.";
                         description.innerHTML = "Creation of a webseries, which combines 2D animation and photographies.<br/><br/><div>Click on the other planets to learn more ...<div>";
